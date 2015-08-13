@@ -16,7 +16,7 @@ body {
 
 /*  background: ##0000A0 (url'../images/background-2.jpg');
 */  font-family: 'Lato', Helvetica, Arial, sans-serif;
-  color: #4e5559;
+  color: #000066;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Lato', Helvetica, Arial, sans-serif;
@@ -29,13 +29,13 @@ h4 { font-size: 20px; }
 h5 { font-size: 18px; }
 h6 { font-size: 16px; }
 p {
-  color: #27a3c4;
+  color: #000066;
   font-size: 16px;
   line-height: 1.5em;
   text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.8);
 }
 a {
-  color: #27a3c4;
+  color: black;
   font-size: 16px;
 }
 a:hover {
@@ -101,7 +101,6 @@ a:hover {
   float: left;
   color: black;
   font-size: 1.2em;  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eae7f7+17,eae7f7+85,f6f6fc+100 */
-  width: 400px;
   height: 100px;
 }
 .navigation {
@@ -111,17 +110,15 @@ a:hover {
 .navigation li {
   float: left;
   margin-right: 50px;
+  margin-top: 15px;
 }
 ul.navigation li:last-child {
   margin-right: 0;
 }
-.navigation li a {
+.navigation li  {
   font-size: 16px;
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
   line-height: 1em;
-}
-.navigation li a:hover {
-  text-decoration: none;
 }
 #top-testimonial {
   padding: 40px 0;
@@ -135,11 +132,55 @@ ul.navigation li:last-child {
 }
 .testimonial > p {
   font-size: 20px;
+  color: #000066;
 }
-
-
-
-
+.testimonial-info {
+  text-align: right;
+  font-weight: 500;
+}
+.testimonial-info p,
+.testimonial-info a {
+  font-size: 17px;
+  margin-bottom: 0;
+}
+#top-testimonial .button {
+  float: right;
+}
+#portfolio {
+  padding: 20px 0px 50px 0;   
+}
+#portfolio h2 {
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+  margin-bottom: 12px;
+  float: left;
+}
+#portfolio .navigation {
+  margin-top: 10px;
+}
+#portfolio .navigation li a {
+  text-transform: none;
+}
+.portfolio-box {
+  border: 1px solid blue;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fffbf7+0,fff9f3+47,fff6ed+100 */
+  background: #fffbf7; /* Old browsers */
+  background: -moz-linear-gradient(top,  #fffbf7 0%, #fff9f3 47%, #fff6ed 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fffbf7), color-stop(47%,#fff9f3), color-stop(100%,#fff6ed)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #fffbf7 0%,#fff9f3 47%,#fff6ed 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #fffbf7 0%,#fff9f3 47%,#fff6ed 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #fffbf7 0%,#fff9f3 47%,#fff6ed 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #fffbf7 0%,#fff9f3 47%,#fff6ed 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffbf7', endColorstr='#fff6ed',GradientType=0 ); /* IE6-9 */
+  padding: 30px;
+  width: 1002px;
+  overflow: hidden;  
+}
+.portfolio-box ul {
+  list-style: none;
+}
+.portfolio-box ul li {
+  margin-bottom: 25px;
+}
 
 
 
