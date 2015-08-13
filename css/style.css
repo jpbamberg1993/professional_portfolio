@@ -97,11 +97,11 @@ a:hover {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffbf7', endColorstr='#fff6ed',GradientType=0 ); /* IE6-9 */
   border-bottom: 1px solid black;
 }
-#logo a {
+#logo {
   float: left;
   color: black;
-  font-size: 1.2em;  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eae7f7+17,eae7f7+85,f6f6fc+100 */
-  height: 100px;
+  font-size: 2em;  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eae7f7+17,eae7f7+85,f6f6fc+100 */
+  height: 30px;
 }
 .navigation {
   float: right;
